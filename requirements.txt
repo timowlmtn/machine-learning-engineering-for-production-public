@@ -4,3 +4,5 @@ matplotlib
 keras
 scipy
 scikit-learn
+tensorflow-macos
+tensorflow-metal
