@@ -8,3 +8,4 @@ tensorflow-macos
 tensorflow-metal
 numpy==1.24.3
 ml-metadata==0.13.1.dev0
+snorkel
