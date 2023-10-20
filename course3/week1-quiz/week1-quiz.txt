@@ -1,0 +1,250 @@
+Skip to Main Content
+Coursera
+
+SEARCH IN COURSE
+Search in course
+
+
+
+Timothy Burns
+
+Menu
+A conversation with Andrew Ng, Robert Crowe and Laurence Moroney
+Hyperparameter tuning: searching for the best architecture
+AutoML
+Video: VideoIntro to AutoML
+. Duration: 5 minutes5 min
+Video: VideoUnderstanding Search Spaces
+. Duration: 2 minutes2 min
+Video: VideoSearch Strategies
+. Duration: 4 minutes4 min
+Reading: ReadingNeural Architecture Search
+. Duration: 3 minutes3 min
+Video: VideoMeasuring AutoML Efficacy
+. Duration: 3 minutes3 min
+Video: VideoAutoML on the Cloud
+. Duration: 8 minutes8 min
+Reading: ReadingAutoML
+. Duration: 3 minutes3 min
+Practice Quiz: AutoML
+9 questions
+Assignment: Classify Images of Clouds in the Cloud with AutoML Vision
+Lecture Notes (Optional)
+Machine Learning Modeling Pipelines in Production
+Week 1
+AutoML
+AutoML
+Practice Quiz12 minutes • 12 min
+Submit your assignment
+Receive grade
+To Pass 80% or higher
+Your grade
+75%
+We keep your highest score
+
+AutoML
+Practice Quiz. • 12 min. • 9 total points available.9 total points
+
+DueMay 24, 11:59 PM EDT
+Try again once you are ready
+Grade received 75%
+To pass 80% or higher
+1.
+Question 1
+Can Neural Architecture Search (NAS) be seen as a subfield of AutoML?
+
+1 / 1 point
+
+Yes
+
+
+No
+
+Correct
+Exactly! NAS can be seen as a subfield of AutoML and has significant overlap with hyperparameter optimization and meta-learning.
+
+2.
+Question 2
+Which of the following are dimensions of the Neural Architecture Search (NAS) technique? (Select all that apply)
+
+0.5 / 1 point
+
+Search Strategy
+
+Correct
+Keep it up! The search strategy details how to explore the search space.
+
+
+Training and Validation of the Architecture
+
+This should not be selected
+Sorry, that’s incorrect. This task belongs to the performance estimation strategy.
+
+
+Search Space
+
+Correct
+Right! The search space defines the range of architectures that can be represented.
+
+
+Performance Estimation Strategy
+
+3.
+Question 3
+What does the search space allow in Neural Architecture Search (NAS)? (Select all that apply)
+
+0.75 / 1 point
+
+Defining which neural architectures we might discover in principle.
+
+Correct
+You're right on track!. The search space defines which architectures can be represented.
+
+
+Reducing the size of the search space incorporating prior knowledge about well-suited properties.
+
+Correct
+That's right! This task can simplify the search space.
+
+
+Defining how we explore the search space.
+
+
+
+Restricting unbounded search spaces to have a maximum depth.
+
+You didn’t select all the correct answers
+4.
+Question 4
+In the chain-structured Neural Network Architecture (NNA), space is parametrized by (Select all that apply):
+
+1 / 1 point
+
+A number of n sequentially fully-connected layers.
+
+Correct
+Spot on! A chain-structured NNA can be written as a sequence of n layers.
+
+
+Hyperparameters associated with the operation.
+
+Correct
+Well done! Search space is related to the number of units for fully connected networks.
+
+
+The operation every layer can execute.
+
+Correct
+Excellent!. Among the most common operations are pooling, convolution, and more advanced layers.
+
+
+The multiple branches with additional layers types and skip connections.
+
+5.
+Question 5
+What are the main features of Automated Machine Learning (AutoML)? (Select all that apply)
+
+0.75 / 1 point
+
+AutoML aims to automate the end-to-end process of machine learning to produce simpler and faster solutions.
+
+Correct
+Indeed! AutoML enables developers -even those with minimal experience in machine learning- to readily produce simple, optimal solutions.
+
+
+AutoML technologies democratize AI with customized state-of-the-art machine learning.
+
+Correct
+That’s true! AutoML seeks to make state-of-the-art machine learning approaches accessible to data scientists with limited machine learning expertise.
+
+
+AutoML is the process of automating architecture engineering and finding the design of machine learning models.
+
+
+AutoML aims to automate the decision-making in a data-driven and objective way.
+
+You didn’t select all the correct answers
+6.
+Question 6
+What are the two main types of search spaces?
+
+1 / 1 point
+
+Long and Short
+
+
+Complex and Simple
+
+
+Macro and Micro
+
+
+Big and Small
+
+Correct
+Good job! Although their names are kind of backwards, that's what they're called.
+
+7.
+Question 7
+In measuring AutoML efficacy, several strategies have been proposed to reduce performance cost estimation, including (Select all that apply):
+
+1 / 1 point
+
+Lower fidelity estimates
+
+Correct
+Yes! Lower fidelity estimates try to reduce the training time by reframing the problem.
+
+
+Weight Inheritance/ Network Morphisms
+
+Correct
+Nailed it! Using network morphism, the weights of novel architectures are initialized based on the weights in previously trained architectures.
+
+
+Reinforcement learning
+
+
+Learning Curve Extrapolation
+
+Correct
+Nicely done! Extrapolation is a sensitive and valid choice based on the assumption that the learning curve can be reliably predicted.
+
+8.
+Question 8
+The lower fidelity estimates are a performance estimation strategy that allows (Select all that apply):
+
+0.75 / 1 point
+
+Training on lower-resolution
+
+Correct
+That's it! The lower fidelity reduces the computational cost as a result.
+
+
+Training with less filters per layer
+
+
+Training on a subset of the data
+
+Correct
+Correct! It also reduces training times.
+
+
+Training for a few epochs
+
+You didn’t select all the correct answers
+9.
+Question 9
+Can network morphism modify an architecture while leaving the network's function unchanged?
+
+0 / 1 point
+
+No
+
+
+Yes
+
+Incorrect
+Sorry, this is in fact the most relevant capacity of this strategy.
+
